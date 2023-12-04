@@ -1,3 +1,9 @@
-let h1 = document.getElementsByTagName(main)
-let add = document.createElement('h1');
-h1.add.innerText = "Hello World";
+let add = document.querySelector('h1');
+add.innerText = 'Javascript';
+
+let btn = document.createElement('button');
+btn.innerText = "Click";
+document.body.appendChild(btn);
+
+
+
